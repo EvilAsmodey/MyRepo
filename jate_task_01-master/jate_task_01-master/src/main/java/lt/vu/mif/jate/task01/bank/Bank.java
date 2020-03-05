@@ -4,47 +4,50 @@ import java.util.Locale;
 
 public class Bank {
 	
-	
-	String country = "";
-	int code = 0;
-	String iban = "";
-	String bankName = "";
-	String bankAdressPostCode = "";
+	private final String country;
+	private final int code;
+	private final String bic;
+	private final String name;
+	private final String adress;
 
-	
-	
-
-	public Bank(String string, int i, String string2, String string3, String string4) {
-		this.country = string;
-		this.code = i;
-		this.iban = string2;
-		this.bankName = string3;
-		this.bankAdressPostCode = string4;
+	public Bank(String country, int code, String bic, String name, String adress) {
+            this.country = country;
+            this.code = code;
+            this.bic = bic;
+            this.name = name;
+            this.adress = adress;
 	}
 
-	public Locale getLocale(String string) {
-		// TODO Auto-generated method stub
-		return string;
+        public Bank(String country, int code, String bic, String name) {
+            this(country, code, bic, name, null);
+        }
+
+        public Bank(String country, int code, String bic) {
+            this(country, code, bic, null);
+        }
+
+        public Bank(String country, int code) {
+            this(country, code, null);
+    }
+        
+	public Locale getLocale() {
+            return new Locale("en", this.country);
 	}
 
-	public Object getCode() {
-		// TODO Auto-generated method stub
-		return null;
+	public Integer getCode() {
+            return this.code;
 	}
 
 	public String getBicCode() {
-		// TODO Auto-generated method stub
-		return null;
+            return this.bic;
 	}
 
 	public String getName() {
-		// TODO Auto-generated method stub
-		return null;
+            return this.name;
 	}
 
 	public String getAddress() {
-		// TODO Auto-generated method stub
-		return null;
+            return this.adress;
 	}
 
 }

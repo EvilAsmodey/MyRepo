@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="lt.vu.mif.jate.task01.Banking01Test" time="0.396" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1257"/>
+    <property name="java.class.path" value="U:\Desktop\Kompiuterinis Modeliavimas\Java Technologies\jate_task_01-master\jate_task_01-master\target\test-classes;U:\Desktop\Kompiuterinis Modeliavimas\Java Technologies\jate_task_01-master\jate_task_01-master\target\classes;C:\Users\argo5377\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\argo5377\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\argo5377\.m2\repository\org\projectlombok\lombok\1.16.20\lombok-1.16.20.jar;C:\Users\argo5377\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="user.country.format" value="LT"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows Server 2012 R2"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\argo5377\AppData\Local\Temp\18\surefire4664068830370316439\surefirebooter687818900851277472.jar C:\Users\argo5377\AppData\Local\Temp\18\surefire4664068830370316439 2020-03-05T18-18-05_552-jvmRun1 surefire985823859274671757tmp surefire_04628506665689617537tmp"/>
+    <property name="surefire.test.class.path" value="U:\Desktop\Kompiuterinis Modeliavimas\Java Technologies\jate_task_01-master\jate_task_01-master\target\test-classes;U:\Desktop\Kompiuterinis Modeliavimas\Java Technologies\jate_task_01-master\jate_task_01-master\target\classes;C:\Users\argo5377\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\argo5377\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\argo5377\.m2\repository\org\projectlombok\lombok\1.16.20\lombok-1.16.20.jar;C:\Users\argo5377\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\argo5377"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_211\jre"/>
+    <property name="basedir" value="U:\Desktop\Kompiuterinis Modeliavimas\Java Technologies\jate_task_01-master\jate_task_01-master"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\argo5377\AppData\Local\Temp\18\surefire4664068830370316439\surefirebooter687818900851277472.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_211-b12"/>
+    <property name="user.name" value="argo5377"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.3"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\argo5377\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\argo5377\AppData\Local\Temp\18\"/>
+    <property name="java.version" value="1.8.0_211"/>
+    <property name="user.dir" value="U:\Desktop\Kompiuterinis Modeliavimas\Java Technologies\jate_task_01-master\jate_task_01-master"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="lt"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\tools\Anaconda3\;C:\tools\Anaconda3\Scripts;C:\tools\Anaconda3\Library\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Haskell Platform\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Dev-Cpp\MinGW32\bin;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\MATLAB\R2018b\bin;C:\Program Files\Git\cmd;C:\Program Files\swipl\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Dev-Cpp\MinGW64\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="bankTest" classname="lt.vu.mif.jate.task01.Banking01Test" time="0.094">
+    <failure message="expected:&lt;lt.vu.mif.jate.task01.bank.Bank@e6ea0c6&gt; but was:&lt;lt.vu.mif.jate.task01.bank.Bank@6a38e57f&gt;" type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError: expected:<lt.vu.mif.jate.task01.bank.Bank@e6ea0c6> but was:<lt.vu.mif.jate.task01.bank.Bank@6a38e57f>
+	at lt.vu.mif.jate.task01.Banking01Test.bankTest(Banking01Test.java:89)
+]]></failure>
+  </testcase>
+</testsuite>

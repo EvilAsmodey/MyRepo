@@ -120,8 +120,4 @@ public class Banking01Test {
                 
     }
 
-    private void assertEquals(String lt, String country) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
 }
